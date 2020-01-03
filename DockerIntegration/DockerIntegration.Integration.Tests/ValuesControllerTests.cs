@@ -25,17 +25,12 @@ namespace DockerIntegration.Integration.Tests
 
         private string ExecuteRequest(string endpoint)
         {
-            try{
-                using(var client = new WebClient())
-                {
-                    var url = RootUrl.TrimEnd('/') + "/api/" + endpoint;
-                    return client.DownloadString(url);
-                }
-            }
-            catch(Exception e)
+            using(var client = new WebClient())
             {
-                return null;
+                var url = RootUrl.TrimEnd('/') + "/api/" + endpoint;
+                return client.DownloadString(url);
             }
+           
         }
     }
 }

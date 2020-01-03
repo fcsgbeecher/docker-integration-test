@@ -1,6 +1,0 @@
-Build Time: 01/03/2020 11:11:02 AM
-1>------ Build started: Project: DockerIntegration.Tests, Configuration: Debug Any CPU ------
-1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2106,5): warning MSB3277: Found conflicts between different versions of "Newtonsoft.Json" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
-1>  DockerIntegration.Tests -> C:\work\projects\dotnet\Miscellaneous\docker-integration-test\DockerIntegration\DockerIntegration.Tests\bin\Debug\DockerIntegration.Tests.dll
-========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
-
