@@ -8,7 +8,7 @@ namespace DockerIntegration.Integration.Tests
     [TestClass]
     public class ValuesControllerTests
     {
-        public string RootUrl{get; set;}
+        public string RootUrl { get; set; }
 
         [TestInitialize]
         public void Initialize()
@@ -25,12 +25,11 @@ namespace DockerIntegration.Integration.Tests
 
         private string ExecuteRequest(string endpoint)
         {
-            using(var client = new WebClient())
+            using (var client = new WebClient())
             {
                 var url = RootUrl.TrimEnd('/') + "/api/" + endpoint;
                 return client.DownloadString(url);
             }
-           
         }
     }
 }
