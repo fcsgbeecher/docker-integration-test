@@ -1,0 +1,14 @@
+<settings>
+    <!-- The output build log folder relative to the root of solution file -->
+    <setting name='BuildLogFolder'>BuildLogs</setting>
+
+    <!-- Append a date time stamp to the end of each build log file, this will result in a new log file for each build -->
+    <setting name='AppendDateTime'>True</setting>
+
+    <!-- Delete any old build log files, this will prevent the creation of multiple files when AppendDateTime is set to True 
+        Note: This will only delete old log files for this particular project, it will not delete log files for other projects in the same folder -->
+    <setting name='DeleteOldBuildLogs'>True</setting>
+
+    <!-- Disable build log file output -->
+    <setting name='DisableLogging'>False</setting>
+</settings>
